@@ -25,6 +25,7 @@ GROUP BY end_station_name
 ORDER BY  end_per_station DESC
 
 /* Identifying the general average duration of trips */
+
 SELECT AVG (duration_sec), 
 FROM `bigquery-public-data.san_francisco_bikeshare.bikeshare_trips` 
 
